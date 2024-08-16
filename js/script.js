@@ -1,4 +1,4 @@
-const map = L.map("map").setView([43.648521, -79.525818], 13); // Coordinates for Toronto, ON
+const map = L.map("map").setView([43.648520, -79.525820], 12); // Coordinates for Toronto, ON
 
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 19,
